@@ -1,0 +1,17 @@
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 70px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  background-color: #00abff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  cursor: pointer;
+  background: #606060;
+}

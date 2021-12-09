@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STORE | THE GAMING ZONE</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="store.css" />
+    <link rel="stylesheet" href="scrollButton.css" />
+
+    <!-- FontAwsome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">THE GAMING ZONE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/index.html" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/about.html" class="navbar__links" id="about-page"
+              >About</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="/store.html" class="navbar__links" id="store-page"
+              >Store</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="/signup.html" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Choose your <span>Games</span></h1>
+        <p class="hero__description">Unlimited Possibilities</p>
+        <!-- <button class="main__btn"><a href="#">Explore</a></button> -->
+      </div>
+    </div>
+
+    <!-- Store Section -->
+    <section class="container content-section">
+      <h2 class="section-header">PS4 Offers</h2>
+      <div class="shop-items services__wrapper">
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Marvel’s Avengers <br />
+            <span class="shop-item-title-desciption">by Square Enix</span></span
+          >
+          <img class="shop-item-image" src="Images/avengers.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Captain Tsubasa: Rise Of New Champions <br />
+            <span class="shop-item-title-desciption">by Solutions 2 Go</span>
+          </span>
+          <img class="shop-item-image" src="Images/tsubasa.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$29.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Mortal Kombat 11 Aftermath
+            <span class="shop-item-title-desciption"
+              >by Warner Bros. Interactive</span
+            >
+          </span>
+          <img class="shop-item-image" src="Images/mortalKombat.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$29.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Zombie Army 4: Dead War <br />
+            <span class="shop-item-title-desciption">by Rebellion</span>
+          </span>
+          <img class="shop-item-image" src="Images/zombieArmy.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$49.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">XBOX Offers</h2>
+      <div class="shop-items services__wrapper">
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Cyberpunk 2077
+            <span class="shop-item-title-desciption"
+              >by Warner Bros. Xbox One</span
+            >
+          </span>
+          <img class="shop-item-image" src="Images/cyberpunk.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$39.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Star Wars Jedi: Fallen Order
+            <span class="shop-item-title-desciption"
+              >by EA Electronic Arts Xbox One</span
+            >
+          </span>
+          <img class="shop-item-image" src="Images/jedi.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$29.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Marvel vs. Capcom Infinite <br />
+            <span class="shop-item-title-desciption">by Capcom Xbox One</span>
+          </span>
+          <img class="shop-item-image" src="Images/marvelCapcom.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$29.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >UFC 3
+            <span class="shop-item-title-desciption"
+              >by EA Electronic Arts Xbox One</span
+            >
+          </span>
+          <img class="shop-item-image" src="Images/ufc3.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">Nintendo Offers</h2>
+      <div class="shop-items services__wrapper">
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Rigid Force Redux - Digital <br />
+            <span class="shop-item-title-desciption">by Nintendo Switch</span>
+          </span>
+          <img class="shop-item-image" src="Images/rigidForce.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$25.19</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Pokémon Brilliant Diamond <br />
+            <span class="shop-item-title-desciption">by Nintendo Switch</span>
+          </span>
+          <img class="shop-item-image" src="Images/pokemon.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$79.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >WWE 2K Battlegrounds Digital Deluxe Edition - Digital <br />
+            <span class="shop-item-title-desciption">by Nintendo Switch</span>
+          </span>
+          <img class="shop-item-image" src="Images/battleGrounds.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$59.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Dragon Ball FighterZ
+            <span class="shop-item-title-desciption"
+              >by BANDAI NAMCO Entertainment Switch</span
+            >
+          </span>
+          <img class="shop-item-image" src="Images/dragonballFighters.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$39.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">Consoles and Controllers</h2>
+      <div class="shop-items services__wrapper">
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >PlayStation 4 1TB Slim Console <br />
+            <span class="shop-item-title-desciption"
+              >by Sony Interactive Entertainment</span
+            >
+          </span>
+          <img class="shop-item-image" src="Images/ps4.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$379.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Xbox Wired Controller (Midnight Blue)
+            <span class="shop-item-title-desciption">by Solutions 2 Go</span>
+          </span>
+          <img class="shop-item-image" src="Images/XBOXWiredController.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$49.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >DUALSHOCK 4 (Red Camouflage) <br />
+            <span class="shop-item-title-desciption">by Sony PS4</span>
+          </span>
+          <img class="shop-item-image" src="Images/dualshock4.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$74.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >Nintendo Switch Limited Edition <br />
+            <span class="shop-item-title-desciption">by Nintendo Switch</span>
+          </span>
+          <img class="shop-item-image" src="Images/nintendoSwitchMonster.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$469.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title">Xbox Series X </span>
+          <img class="shop-item-image" src="Images/XBOXSeriesX.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$959.76</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title">Xbox Series S </span>
+          <img class="shop-item-image" src="Images/XBOXSeriesS.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$719.76</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item services__card">
+          <span class="shop-item-title"
+            >ASUS - RT-AX82U Gundam Router <br />
+            <span class="shop-item-title-desciption">by Other PC</span>
+          </span>
+          <img class="shop-item-image" src="Images/asusrt.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$359.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">YOUR CART IS READY</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.youtube.com/">Youtube</a>
+            <a href="https://twitter.com/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">THE GAMING ZONE</a>
+          </div>
+          <p class="website__rights">All rights reserved © 2021</p>
+          <div class="social__icons">
+            <a
+              href="https://www.facebook.com/"
+              class="social__icon--link"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect"
+              class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Scroll-button -->
+    <div class="scrolltop float-right">
+      <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+    </div>
+    <!-- Scroll Button -->
+    <script>
+      // Get the Button
+      myButton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          myButton.style.display = "block";
+        } else {
+          myButton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+    <script src="store.js" async></script>
+  </body>
+</html>
